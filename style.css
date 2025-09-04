@@ -12,9 +12,8 @@ body {
   margin: auto;
 }
 
-/* Header */
 header {
-  background-color: #1a1a1a; /* dark background for contrast */
+  background-color: #1a1a1a;
   color: #ffffff;
   padding: 1em 0;
 }
@@ -43,7 +42,6 @@ header {
   text-decoration: underline;
 }
 
-/* Sections */
 section {
   padding: 2em 0;
 }
@@ -58,7 +56,6 @@ h1, h2, h3 {
   margin-top: 1em;
 }
 
-/* Services Grid */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -72,7 +69,6 @@ h1, h2, h3 {
   border-radius: 8px;
 }
 
-/* Contact Form */
 form {
   display: flex;
   flex-direction: column;
@@ -101,7 +97,6 @@ button:focus {
   background-color: #005fa3;
 }
 
-/* Footer */
 footer {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -110,7 +105,6 @@ footer {
   margin-top: 2em;
 }
 
-/* Responsive Adjustments */
 @media
  (max-width: 600px) {
   .header-container,
@@ -123,4 +117,5 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
   }
+
 }
